@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application form</title>
+</head>
+<body>
+     <nav>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="product.html">Products</a></li>
+            <li><a href="about.html">About</a></li>
+    </nav>
+    <h1><b>order form</b></h1>
+    <from action="submit_form.php" method="post">
+        <label for="name">Full Name</label>
+        <input type="text" name="name" placeholder="Enter Your Full Name" required><br>
+        <label for="birth date">deliver date</label>
+        <input type="date" name="birthdate" placeholder="Enter your birthday"><br>
+        <label for="phone">Phone Number</label>
+        <input type="tel"  name="phone" placeholder="enter your phone number" required><br>
+        <label for="house number">house number</label>
+        <input type="text" name="house_number" placeholder="enter your house number" required><br>
+        <label for="products">Select Product</label>
+        <select name="products" id="products">
+            <option value="muffins">Muffins</option>
+            <option value="danishes">Danishes</option>
+            <option value="croissants">Croissants</option>
+            <option value="iced coffee">Iced Coffee</option>
+            <option value="macchito">Macchito</option>
+        </select><br>
+        <input type="submit" >
+    </from>
+    
+</body>
+</html>
